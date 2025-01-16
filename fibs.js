@@ -23,6 +23,8 @@ console.log(fibs(10));
 console.log(fibs(20));
 
 function fibsRec(n) {
+  console.log("This was printed recursively");
+
   if (n === 0) {
     return [];
   }
